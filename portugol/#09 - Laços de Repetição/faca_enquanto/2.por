@@ -6,24 +6,31 @@ programa
 */
 	funcao inicio()
 	{
-		inteiro n = 1, num, soma = 1
+		inteiro n = 1, num, soma = 0, contnum=0
 
 		escreva("Digite um numero: ")
 		leia(num)
-		escreva("1")
 		
 		faca{
+
+			escreva(n)
+
+			se(n < num){
+
+				escreva("+")
+			}
 			
-			n++
+			contnum++
 					
-			soma = soma + n
+			soma = soma + contnum
+
+			n++
 			
-			escreva("+",n)	
 		}
 
-		enquanto(n < num)
+		enquanto(n <= num)
 
-		escreva("=", soma)
+		escreva(" = ", soma)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,9 +38,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 378; 
- * @PONTOS-DE-PARADA = 17, 19, 21, 26;
- * @SIMBOLOS-INSPECIONADOS = {n, 9, 10, 1}-{num, 9, 17, 3}-{soma, 9, 22, 4};
+ * @POSICAO-CURSOR = 339; 
+ * @PONTOS-DE-PARADA = 16, 33, 20, 23, 25, 27;
+ * @SIMBOLOS-INSPECIONADOS = {n, 9, 10, 1}-{num, 9, 17, 3}-{soma, 9, 22, 4}-{contnum, 9, 32, 7};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
