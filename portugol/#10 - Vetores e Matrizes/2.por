@@ -59,7 +59,7 @@ programa{
  * 
  * @POSICAO-CURSOR = 835; 
  * @PONTOS-DE-PARADA = 20, 36, 25, 28, 44, 30;
- * @SIMBOLOS-INSPECIONADOS = {dado, 9, 10, 4}-{soma, 9, 20, 4}-{maior, 9, 30, 5}-{contMaior, 9, 37, 9}-{x, 9, 52, 1}-{media, 10, 7, 5};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
