@@ -40,7 +40,7 @@ programa
  * 
  * @POSICAO-CURSOR = 339; 
  * @PONTOS-DE-PARADA = 16, 33, 20, 23, 25, 27;
- * @SIMBOLOS-INSPECIONADOS = {n, 9, 10, 1}-{num, 9, 17, 3}-{soma, 9, 22, 4}-{contnum, 9, 32, 7};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
