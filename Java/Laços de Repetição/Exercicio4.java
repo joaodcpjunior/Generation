@@ -26,27 +26,27 @@ public class Exercicio4 {
 				contPessoaCalma++;
 			}
 			
-			else if(sexo == 2 && temperamento == 2) {
+			if(sexo == 2 && temperamento == 2) {
 				
 				contMulherNervosa++;
 			}
 			
-			else if(sexo == 1 && temperamento == 3) {
+			if(sexo == 1 && temperamento == 3) {
 				
 				contHomemAgressivo++;
 			}
 			
-			else if(sexo == 3 && temperamento == 1) {
+			if(sexo == 3 && temperamento == 1) {
 				
 				contOutrosCalmos++;
 			}
 			
-			else if(idade > 40 && temperamento == 2) {
+			if(idade > 40 && temperamento == 2) {
 				
 				contIdadeMaiorNervoso++;
 			}
 			
-			else if(idade < 18 && temperamento == 1) {
+			if(idade < 18 && temperamento == 1) {
 				
 				contIdadeMenorCalma++;
 			}
@@ -63,11 +63,11 @@ public class Exercicio4 {
 			x++;
 		}
 		
-		System.out.println("O número de pessoas calmas: " + contPessoaCalma);
-		System.out.println("O número de mulheres nervosas: " + contMulherNervosa);
-		System.out.println("O número de homens agressivos: " + contHomemAgressivo);
-		System.out.println("O número de outros calmos: " + contOutrosCalmos);
-		System.out.println("O número de pessoas nervosas com mais de 40 anos: " + contIdadeMaiorNervoso);
-		System.out.println("O número de pessoas calmas com menos de 18 anos: " + contIdadeMenorCalma);
+		System.out.println("O nï¿½mero de pessoas calmas: " + contPessoaCalma);
+		System.out.println("O nï¿½mero de mulheres nervosas: " + contMulherNervosa);
+		System.out.println("O nï¿½mero de homens agressivos: " + contHomemAgressivo);
+		System.out.println("O nï¿½mero de outros calmos: " + contOutrosCalmos);
+		System.out.println("O nï¿½mero de pessoas nervosas com mais de 40 anos: " + contIdadeMaiorNervoso);
+		System.out.println("O nï¿½mero de pessoas calmas com menos de 18 anos: " + contIdadeMenorCalma);
 	}
 }
