@@ -6,7 +6,7 @@ public class Exercicio4 {
 
 	public static void main(String[] args) {
 		
-		int idade, sexo, temperamento, x = 1, contPessoaCalma = 0, contMulherNervosa = 0, contHomemAgressivo = 0, contOutrosCalmos = 0, contIdadeMaiorNervoso = 0, contIdadeMenorCalma = 0; 
+		int idade, genero, temperamento, x = 1, contPessoaCalma = 0, contMulherNervosa = 0, contHomemAgressivo = 0, contOutrosCalmos = 0, contIdadeMaiorNervoso = 0, contIdadeMenorCalma = 0; 
 		
 		Scanner scan = new Scanner(System.in);
 		
@@ -14,7 +14,7 @@ public class Exercicio4 {
 		idade = scan.nextInt();
 		
 		System.out.println("Digite 1 para masculino, 2 para feminino ou 3 para outros: ");
-		sexo = scan.nextInt();
+		genero = scan.nextInt();
 		
 		System.out.println("Digite 1 para calma, 2 para nervosa e 3 para agressiva: ");
 		temperamento = scan.nextInt();
