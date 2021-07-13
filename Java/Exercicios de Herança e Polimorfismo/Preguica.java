@@ -19,14 +19,24 @@ public class Preguica extends Animal{
 
 	public void imprimirInfo() {
         System.out.println(
-            "\nNome da preguiça: " + getNome() +
-            "\nIdade da preguiça: " + getIdade() +
-            "\nAlimento favorito da preguiça: " + alimento
+            "\nNome da preguiï¿½a: " + getNome() +
+            "\nIdade da preguiï¿½a: " + getIdade() +
+            "\nAlimento favorito da preguiï¿½a: " + alimento
         );
     }
 	
 	public void calcularHorasDormdias() {
 		double horasDormidas = 0.5 * (getIdade() * 8760);
-		System.out.println("Quantidade de horas que a preguiça dormiu até hoje em sua vida: " + horasDormidas);
+		System.out.println("Quantidade de horas que a preguiï¿½a dormiu atï¿½ hoje em sua vida: " + horasDormidas);
 	}
+
+	@Override
+	public void emitirSom() {
+        System.out.println("Som da preguiÃ§a: ..........");
+    }
+
+	@Override
+    public void capacidade(){
+        System.out.println("A preguiÃ§a sobre em Ã¡rvores!");
+    }
 }

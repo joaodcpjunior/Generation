@@ -31,14 +31,24 @@ public class Cachorro extends Animal {
         System.out.println(
             "\nNome do cachorro: " + getNome() +
             "\nIdade do cachorro: " + getIdade() +
-            "\nRaça do cachorro: " + raca +
+            "\nRaï¿½a do cachorro: " + raca +
             "\nCor do cachorro: " + cor
         );
     }
     
     public void converterIdade() {
     	int idadeConvertida = getIdade() * 7;
-    	System.out.println("A idade do cachorro convertida em idade humana é: " + idadeConvertida + " anos.");
+    	System.out.println("A idade do cachorro convertida em idade humana ï¿½: " + idadeConvertida + " anos.");
+    }
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Auauau");
+    }
+
+    @Override
+    public void capacidade(){
+        System.out.println("O cachorro corre!");
     }
 
 }

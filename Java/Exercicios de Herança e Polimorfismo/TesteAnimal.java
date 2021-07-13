@@ -11,14 +11,22 @@ public class TesteAnimal {
         
         cachorro1.imprimirInfo();
         cachorro1.converterIdade();
+        cachorro1.emitirSom();
+        cachorro1.capacidade();
 
         cachorro2.imprimirInfo();
         cachorro2.converterIdade();
+        cachorro2.emitirSom();
+        cachorro2.capacidade();
         
         cavalo1.imprimirInfo();
         cavalo1.converterIdade();
+        cavalo1.emitirSom();
+        cavalo1.capacidade();
         
         preguica1.imprimirInfo();
-        preguica1.calcularHorasDormdias();        
+        preguica1.calcularHorasDormdias();
+        preguica1.emitirSom();  
+        preguica1.capacidade();      
     }
 }

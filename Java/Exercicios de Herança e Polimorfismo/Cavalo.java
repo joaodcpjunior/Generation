@@ -38,7 +38,17 @@ public class Cavalo extends Animal {
     
     public void converterIdade() {
     	int idadeConvertida = getIdade() * 6;
-    	System.out.println("A idade do cavalo convertida em idade humana é: " + idadeConvertida + " anos.");
+    	System.out.println("A idade do cavalo convertida em idade humana ï¿½: " + idadeConvertida + " anos.");
+    }
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Iiirriiiiii");
+    }
+
+    @Override
+    public void capacidade(){
+        System.out.println("O cavalo trota!");
     }
 
 }

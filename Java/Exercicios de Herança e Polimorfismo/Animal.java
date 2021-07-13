@@ -1,6 +1,6 @@
 package heranca;
 
-public class Animal {
+public abstract class Animal {
     
     private String nome;
     private int idade;
@@ -26,5 +26,9 @@ public class Animal {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    public abstract void emitirSom();
+
+    public abstract void capacidade();
 
 }
